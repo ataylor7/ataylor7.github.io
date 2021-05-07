@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>426 Final Project</title>
+        <link rel="stylesheet" href="style.css" />
+
+
+    </head>
+
+    <body class="lightMode">      
+        <div class="navHold lightMode">
+            <p class="siteTitle"><img src="catIco.png" alt="smiling cat face"> Cat Adoption Assistant <img src="catIco.png" alt="smiling cat face"></p>
+        <ul class="navbar">
+            <li class="navbar leftSide"><a href="index.html">HOME</a></li>
+            <li class="navbar leftSide"><a href="whyAdopt.html">WHY ADOPT</a></li>
+            <li class="navbar leftSide active"><a href="beforeAdopt.html">BEFORE ADOPTING</a></li>
+            <li class="navbar leftSide"><a href="adopt.html">ADOPT</a></li>
+            <li class="navbar leftSide"><a href="donate.html">DONATE</a></li>
+            <li class="rightSide navbar"><a href="currAccount.html"> ACCTINFO </a></li>
+            <li class="rightSide navbar"><a href="signUpIn.html"> SIGN UP/IN</a></li>
+            <li class="navbar rightSide imgSpecial"><img class="modeBtn"src="lightEye.png" height="75%" width="75%"></li>
+
+          </ul>
+          </div>
+
+        <div class="content lightMode">
+            <h1> Is Your House Ready? Are You?</h1>
+            <p> It is important to remember that a cat is a living creature. They have needs, too! Before getting a cat, you
+                should make sure you and your house are prepared.
+                Make sure you have these <i>before</i> the cat sets foot in your home.
+                A good starter list is:
+                <ul>
+                    <li> 2 litterboxes: you should get 1 more than number of cats you own, as long as you have space</li>
+                    <Li> Food and food bowls. Choose bowls that are easy to clean and won't mold. Choose food carefully; you can consult a vet about diet if needed.</Li>
+                    <li> Scratching posts! This will save your furniture.</li>
+                    <li> Plenty of toys! Cats like to play too!</li>
+                    <li> Treats! </li>
+                </ul>
+                Another thing to consider is breed. Most shelter cats will be domestic short-hairs, but many can be mixed,
+                so knowing about characteristics can be helpful. For example, Siamese cats tend to be very vocal. Watch
+                out for Siamese features if you want a quiet home life! Get a list of breeds below.
+            </p>
+
+            <button class="breedBtn"> Show Breed List </button>
+<form class="breedForm"> 
+            <label for="browser">Choose a breed for more info:</label>
+    <input list="breedDataList" name="breedDropDown" id="chosenBreed">
+
+    <datalist id="breedDataList">
+    </datalist>
+    </form>
+    <button class="submitBtn">Submit</button>
+    <button class="resetBtn">Reset Search</button>
+
+
+            <div class="breedHolder">
+            <div class="breeds">
+                <p class="name"></p>
+                <p class="temper"></p>
+
+                <p class="hairless"></p>
+
+                <p class="hypoallergenic"></p>
+                <p class="vocal"></p>
+
+
+            </div>
+            </div>
+
+            <div class="specInfo">
+
+            </div>
+ 
+        </div>
+          
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="beforeAdopt.js"></script>
+        <script src="index.js"></script>
+
+    </body>
+</html>
